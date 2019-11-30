@@ -9,13 +9,42 @@ export default class Carousel extends React.Component {
     }
     render() {
         return (
+        
+
+
             <div className="container">
-            <h2>{this.props.name}</h2>
-                <div className="carousel carousel-slider center">
-                    <a className="carousel-item" href="#one!"><img src="http://lorempixel.com/200/400/sports/1/"></img></a>
-                    <a className="carousel-item" href="#one!"><img src="http://lorempixel.com/200/400/sports/2/"></img></a>
-                    <a className="carousel-item" href="#one!"><img src="http://lorempixel.com/200/400/sports/3/"></img></a>
-                    <a className="carousel-item" href="#one!"><img src="http://lorempixel.com/200/400/sports/4/"></img></a>
+            <h2 className="teal-text">{this.props.name}</h2>
+                
+                {/* DESKTOP */}
+                <div className="hide-on-med-and-down carousel carousel-slider center">
+                    <a className="carousel-item" href="#01">
+                        <p className="teal-text">Nanatsu no Taizai</p>
+                        <img src={"./imgs/"+this.props.img1+"_.png"}></img>
+                    </a>
+                    <a className="carousel-item" href="#02">
+                        <p className="teal-text">Nanatsu no Taizai</p>
+                        <img src={"./imgs/"+this.props.img2+"_.png"}></img>
+                    </a>
+                    <a className="carousel-item" href="#03">
+                        <p className="teal-text">Nanatsu no Taizai</p>
+                        <img src={"./imgs/"+this.props.img3+"_.png"}></img>
+                    </a>
+                </div>
+
+                {/* MOBILE */}
+                <div className="hide-on-med-and-up carousel carousel-slider center">
+                    <a className="carousel-item" href="#01">
+                        <p className="teal-text">Nanatsu no Taizai</p>
+                        <img src={"./imgs/"+this.props.img1+".png"}></img>
+                    </a>
+                    <a className="carousel-item" href="#02">
+                        <p className="teal-text">Nanatsu no Taizai</p>
+                        <img src={"./imgs/"+this.props.img2+".png"}></img>
+                    </a>
+                    <a className="carousel-item" href="#03">
+                        <p className="teal-text">Nanatsu no Taizai</p>
+                        <img src={"./imgs/"+this.props.img3+".png"}></img>
+                    </a>
                 </div>
             </div>
         );
