@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Materialize from 'materialize-css';
-
+import {Link} from 'react-router-dom';
 
 export default class Carousel extends React.Component {
     componentDidMount() {
@@ -15,34 +15,34 @@ export default class Carousel extends React.Component {
                 
                 {/* DESKTOP */}
                 <div className="hide-on-med-and-down carousel carousel-slider center card ">
-                    <a className="carousel-item" href={"/anime/"+this.props.img1}>
+                    <Link className="carousel-item" to={"/anime/"+this.props.img1}>
                         <img src={"./imgs/"+this.props.img1+"_.png"} alt="Anime Image"></img>
                         <p className="teal-text">Nanatsu no Taizai</p>
-                    </a>
-                    <a className="carousel-item" href={"/anime/"+this.props.img2}>
+                    </Link>
+                    <Link className="carousel-item" to={"/anime/"+this.props.img2}>
                         <img src={"./imgs/"+this.props.img2+"_.png"} alt="Anime Image"></img>
                         <p className="teal-text">Nanatsu no Taizai</p>
-                    </a>
-                    <a className="carousel-item" href={"/anime/"+this.props.img3}>
+                    </Link>
+                    <Link className="carousel-item" to={"/anime/"+this.props.img3}>
                         <img src={"./imgs/"+this.props.img3+"_.png"} alt="Anime Image"></img>
                         <p className="teal-text">Nanatsu no Taizai</p>
-                    </a>
+                    </Link>
                 </div>
 
                 {/* MOBILE */}
                 <div className="hide-on-med-and-up carousel carousel-slider center row">
-                    <a className="carousel-item" href="#01">
+                    <Link className="carousel-item" to={"/anime/"+this.props.img1}>
                         <p className="teal-text">Nanatsu no Taizai</p>
                         <img src={"./imgs/"+this.props.img1+".png"} alt="Anime Image"></img>
-                    </a>
-                    <a className="carousel-item" href="#02">
+                    </Link>
+                    <Link className="carousel-item" to={"/anime/"+this.props.img2}>
                         <p className="teal-text">Nanatsu no Taizai</p>
                         <img src={"./imgs/"+this.props.img2+".png"} alt="Anime Image"></img>
-                    </a>
-                    <a className="carousel-item" href="#03">
+                    </Link>
+                    <Link className="carousel-item" to={"/anime/"+this.props.img3}>
                         <p className="teal-text">Nanatsu no Taizai</p>
                         <img src={"./imgs/"+this.props.img3+".png"} alt="Anime Image"></img>
-                    </a>
+                    </Link>
                 </div>
             </div>
         );

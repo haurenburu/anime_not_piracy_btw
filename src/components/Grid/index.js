@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Materialize from 'materialize-css';
-
+import {Link} from 'react-router-dom';
 
 export default class Grid extends React.Component{
     componentDidMount() {
@@ -12,31 +12,31 @@ export default class Grid extends React.Component{
             <div className="row container">
                 <h3 className="teal-text">{this.props.name}</h3>
                 <div className="col s12 m6 l4">
-                    <a href={"/anime/"+this.props.item1}><img src={"./imgs/"+ this.props.item1+"_.png"} className="responsive-img card"></img></a>
+                    <Link to={"/anime/"+this.props.item1}><img src={"./imgs/"+ this.props.item1+"_.png"} className="responsive-img card"></img></Link>
                 </div>
                 <div className="col s12 m6 l4">
-                    <a href={"/anime/"+this.props.item2}><img src={"./imgs/"+ this.props.item2+"_.png"} className="responsive-img card"></img></a>
+                    <Link to={"/anime/"+this.props.item2}><img src={"./imgs/"+ this.props.item2+"_.png"} className="responsive-img card"></img></Link>
                 </div>
                 <div className="col s12 m6 l4">
-                    <a href={"/anime/"+this.props.item3}><img src={"./imgs/"+ this.props.item3+"_.png"} className="responsive-img card"></img></a>
+                    <Link to={"/anime/"+this.props.item3}><img src={"./imgs/"+ this.props.item3+"_.png"} className="responsive-img card"></img></Link>
                 </div>
                 <div className="col s12 m6 l4">
-                    <a href={"/anime/"+this.props.item1}><img src={"./imgs/"+ this.props.item1+"_.png"} className="responsive-img card"></img></a>
+                    <Link to={"/anime/"+this.props.item1}><img src={"./imgs/"+ this.props.item1+"_.png"} className="responsive-img card"></img></Link>
                 </div>
                 <div className="col s12 m6 l4">
-                    <a href={"/anime/"+this.props.item2}><img src={"./imgs/"+ this.props.item2+"_.png"} className="responsive-img card"></img></a>
+                    <Link to={"/anime/"+this.props.item2}><img src={"./imgs/"+ this.props.item2+"_.png"} className="responsive-img card"></img></Link>
                 </div>
                 <div className="col s12 m6 l4">
-                    <a href={"/anime/"+this.props.item3}><img src={"./imgs/"+ this.props.item3+"_.png"} className="responsive-img card"></img></a>
+                    <Link to={"/anime/"+this.props.item3}><img src={"./imgs/"+ this.props.item3+"_.png"} className="responsive-img card"></img></Link>
                 </div>
                 <div className="col s12 m6 l4">
-                    <a href={"/anime/"+this.props.item1}><img src={"./imgs/"+ this.props.item1+"_.png"} className="responsive-img card"></img></a>
+                    <Link to={"/anime/"+this.props.item1}><img src={"./imgs/"+ this.props.item1+"_.png"} className="responsive-img card"></img></Link>
                 </div>
                 <div className="col s12 m6 l4">
-                    <a href={"/anime/"+this.props.item2}><img src={"./imgs/"+ this.props.item2+"_.png"} className="responsive-img card"></img></a>
+                    <Link to={"/anime/"+this.props.item2}><img src={"./imgs/"+ this.props.item2+"_.png"} className="responsive-img card"></img></Link>
                 </div>
                 <div className="col s12 m6 l4">
-                    <a href={"/anime/"+this.props.item3}><img src={"./imgs/"+ this.props.item3+"_.png"} className="responsive-img card"></img></a>
+                    <Link to={"/anime/"+this.props.item3}><img src={"./imgs/"+ this.props.item3+"_.png"} className="responsive-img card"></img></Link>
                 </div>
                 
             </div>

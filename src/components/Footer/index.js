@@ -1,5 +1,7 @@
 import React from 'react';
+
 import Materialize from 'materialize-css';
+import {Link} from 'react-router-dom';
 
 export default class Footer extends React.Component {
     componentDidMount() {
@@ -18,9 +20,9 @@ export default class Footer extends React.Component {
               <div className="col l4 offset-l2 s12">
                 <h5 className="white-text">Links</h5>
                 <ul>
-                  <li><a className="grey-text text-lighten-3" href="#!">Facebook</a></li>
-                  <li><a className="grey-text text-lighten-3" href="#!">Github</a></li>
-                  <li><a className="grey-text text-lighten-3" href="#!">Twitter</a></li>
+                  <li><a className="grey-text text-lighten-3" target="_blank" href="http://www.facebook.com/acantonicarlos">Facebook</a></li>
+                  <li><a className="grey-text text-lighten-3" target="_blank" href="http://www.github.com/haurenburu">Github</a></li>
+                  <li><a className="grey-text text-lighten-3" target="_blank" href="http://www.twitter.com/haurenburu">Twitter</a></li>
                 </ul>
               </div>
             </div>
@@ -28,7 +30,7 @@ export default class Footer extends React.Component {
           <div className="footer-copyright">
             <div className="container">
             © 2019 Copyright Text
-            <a className="grey-text text-lighten-4 right" href="#!">More Links</a>
+            <Link className="grey-text text-lighten-4 right" target="_blank" to="#!">More Links</Link>
             </div>
           </div>
         </footer>
