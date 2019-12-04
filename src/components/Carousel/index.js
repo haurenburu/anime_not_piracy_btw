@@ -16,15 +16,15 @@ export default class Carousel extends React.Component {
                 {/* DESKTOP */}
                 <div className="hide-on-med-and-down carousel carousel-slider center card ">
                     <Link className="carousel-item" to={"/anime/"+this.props.img1}>
-                        <img src={"./imgs/"+this.props.img1+"_.png"} alt="Anime Image"></img>
+                        <img src={"./imgs/"+this.props.img1+"_.png"} alt="Anime cover"></img>
                         <p className="teal-text">Nanatsu no Taizai</p>
                     </Link>
                     <Link className="carousel-item" to={"/anime/"+this.props.img2}>
-                        <img src={"./imgs/"+this.props.img2+"_.png"} alt="Anime Image"></img>
+                        <img src={"./imgs/"+this.props.img2+"_.png"} alt="Anime cover"></img>
                         <p className="teal-text">Nanatsu no Taizai</p>
                     </Link>
                     <Link className="carousel-item" to={"/anime/"+this.props.img3}>
-                        <img src={"./imgs/"+this.props.img3+"_.png"} alt="Anime Image"></img>
+                        <img src={"./imgs/"+this.props.img3+"_.png"} alt="Anime cover"></img>
                         <p className="teal-text">Nanatsu no Taizai</p>
                     </Link>
                 </div>
@@ -33,15 +33,15 @@ export default class Carousel extends React.Component {
                 <div className="hide-on-med-and-up carousel carousel-slider center row">
                     <Link className="carousel-item" to={"/anime/"+this.props.img1}>
                         <p className="teal-text">Nanatsu no Taizai</p>
-                        <img src={"./imgs/"+this.props.img1+".png"} alt="Anime Image"></img>
+                        <img src={"./imgs/"+this.props.img1+".png"} alt="Anime cover"></img>
                     </Link>
                     <Link className="carousel-item" to={"/anime/"+this.props.img2}>
                         <p className="teal-text">Nanatsu no Taizai</p>
-                        <img src={"./imgs/"+this.props.img2+".png"} alt="Anime Image"></img>
+                        <img src={"./imgs/"+this.props.img2+".png"} alt="Anime cover"></img>
                     </Link>
                     <Link className="carousel-item" to={"/anime/"+this.props.img3}>
                         <p className="teal-text">Nanatsu no Taizai</p>
-                        <img src={"./imgs/"+this.props.img3+".png"} alt="Anime Image"></img>
+                        <img src={"./imgs/"+this.props.img3+".png"} alt="Anime cover"></img>
                     </Link>
                 </div>
             </div>

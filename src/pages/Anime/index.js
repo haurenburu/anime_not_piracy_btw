@@ -14,7 +14,7 @@ export default class Anime extends React.Component {
             <>
                 <main className="container row">
                     <div className="col s12 m6 l4 m10">
-                        <img className="responsive-img card " src={"/imgs/" + this.props.match.params.id + ".png"}></img>
+                        <img className="responsive-img card " src={"/imgs/" + this.props.match.params.id + ".png"} alt="Anime cover"></img>
                     </div>
                     <AnimeDesc id={this.props.match.params.id} />
                 </main>
