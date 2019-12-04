@@ -30,7 +30,7 @@ export default class AnimeDesc extends React.Component {
             `;
         }
         return (
-            <div className="col s12 m6 l8">
+            <div className="col s12 m12 l8 center">
                 <h3 className="teal-text">{getAnimeName(this.props.id)}</h3>
                 <p className="justify-align">{getAnimeDesc(this.props.id)}</p>
             </div>

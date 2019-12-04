@@ -13,12 +13,12 @@ export default class Login extends React.Component {
                 <form className="col s12">
                     <div className="input-field col s12 m6">
                         <label htmlFor="username">Username</label>
-                        <input id="username" type="text" placeholder="Username"
+                        <input id="username" type="text" 
                             className="validate" required />
                     </div>
                     <div className="input-field col s12 m6">
                         <label htmlFor="password">Password</label>
-                        <input id="password" type="password" placeholder="Password"
+                        <input id="password" type="password" 
                             className="validate" required />
                     </div>
                     {/* <div className="input-fild col s6">
@@ -33,22 +33,22 @@ export default class Login extends React.Component {
                     <h3 className="teal-text"> Cadastrar </h3>
                     <div className="input-field col s12 m6">
                         <label htmlFor="username">Username</label>
-                        <input id="username" type="text" placeholder="Username"
+                        <input id="username" type="text" 
                             className="validate" required />
                     </div>
                     <div className="input-field col s12 m6">
                         <label htmlFor="password2">Password</label>
-                        <input id="password2" type="password" placeholder="Password"
+                        <input id="password2" type="password" 
                             className="validate" required />
                     </div>
                     <div className="input-field col s12 m6">
                         <label htmlFor="password3">Repeat password</label>
-                        <input id="password3" type="password" placeholder="Repeat password"
+                        <input id="password3" type="password" 
                             className="validate" required />
                     </div>
                     <div className="input-field col s12 m6">
                         <label htmlFor="email">Email</label>
-                        <input id="email" type="email" placeholder="something@something.com"
+                        <input id="email" type="email" 
                             className="validate" required />
                     </div>
 

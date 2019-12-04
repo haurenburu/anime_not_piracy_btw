@@ -20,15 +20,13 @@ export default class Header extends React.Component {
                         <ul className="right hide-on-med-and-down">
                             <li><Link to="/" className="white-text">Home</Link></li>
                             <li><Link to="/animes" className="white-text">Animes</Link></li>
-                            <li><Link to="#" className="white-text">Menu 3</Link></li>
                             <li><Link to="/login" className="white-text">Login</Link></li>
                         </ul>
                         {/* Hide on desktop */}
                         <ul className="sidenav teal" id="mobile-menu">
-                            <li><Link to="#" className="white-text">Menu 1</Link></li>
-                            <li><Link to="#" className="white-text">Menu 2</Link></li>
-                            <li><Link to="#" className="white-text">Menu 3</Link></li>
-                            <li><Link to="#" className="white-text">Menu 4</Link></li>
+                            <li><Link to="/" className="white-text">Home</Link></li>
+                            <li><Link to="/animes" className="white-text">Animes</Link></li>
+                            <li><Link to="/login" className="white-text">Login</Link></li>
                         </ul>
 
                     </div>
