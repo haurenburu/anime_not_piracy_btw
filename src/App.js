@@ -9,6 +9,7 @@ import Anime from './pages/Anime';
 import Animes from './pages/Animes';
 import Login from './pages/Login';
 import Episodes from './pages/Episodes';
+import Watch from './pages/Watch';
 
 // CSS
 import './App.css';
@@ -22,6 +23,7 @@ export default function App() {
       <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/anime/:id/episodes" component={Episodes} />
+          <Route path="/anime/:id/watch" component={Watch} />
           <Route path="/anime/:id" component={Anime} />
           <Route path="/animes" exact component={Animes} />
           <Route path="/login" exact component={Login} />

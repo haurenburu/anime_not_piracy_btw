@@ -13,11 +13,11 @@ export default class Episodes extends React.Component {
     render() {
         return (
             <main className="container">
-                <AnimeLink id={this.props.match.params.id} ep="1" />
-                <AnimeLink id={this.props.match.params.id} ep="2" />
-                <AnimeLink id={this.props.match.params.id} ep="3" />
-                <AnimeLink id={this.props.match.params.id} ep="4" />
-                <AnimeLink id={this.props.match.params.id} ep="5" />
+                <AnimeLink id={this.props.match.params.id} ep="01" />
+                <AnimeLink id={this.props.match.params.id} ep="02" />
+                <AnimeLink id={this.props.match.params.id} ep="03" />
+                <AnimeLink id={this.props.match.params.id} ep="04" />
+                <AnimeLink id={this.props.match.params.id} ep="05" />
             </main>
         );
     }

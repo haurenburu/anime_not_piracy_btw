@@ -5,3 +5,16 @@ p.justify-align {
 h4.animeName {
     margin-top: 0;
 }
+
+video {
+    position: fixed; /*  absolute ou fixed */
+    width: 100%;
+    z-index: 20;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+  }
+
+.m10 {
+    margin-top: 2rem;
+}
