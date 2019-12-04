@@ -4,6 +4,10 @@ import Materialize from 'materialize-css';
 
 export default class Watch extends React.Component {
 
+    componentDidMount() {
+        Materialize.AutoInit()
+    }
+
     render() {
         return (
             <main className="container">
