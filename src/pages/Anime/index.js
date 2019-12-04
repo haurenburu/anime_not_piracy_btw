@@ -1,7 +1,7 @@
 import React from 'react';
 
+import {Link} from 'react-router-dom';
 import Materialize from 'materialize-css';
-
 import AnimeDesc from '../../components/AnimeDesc';
 
 export default class Anime extends React.Component {
@@ -19,7 +19,7 @@ export default class Anime extends React.Component {
                     <AnimeDesc id={this.props.match.params.id} />
                 </main>
                 <div className="container row center">
-                    <a className="btn" href="#">Episodes</a>
+                    <Link className="btn" to={"/anime/" + this.props.match.params.id+"/episodes"}>Episodes</Link>
                 </div>
             </>
         );
