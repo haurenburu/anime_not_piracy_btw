@@ -14,8 +14,8 @@ export default class Footer extends React.Component {
           <div className="container">
             <div className="row">
               <div className="col l6 s12">
-                <h5 className="white-text">Footer Content</h5>
-                <p className="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                <h5 className="white-text">Trabalho de web</h5>
+                <p className="grey-text text-lighten-4">Feito com React e Materialize CSS (sim, talvez eu devesse ter feito com bootstrap mesmo)</p>
               </div>
               <div className="col l4 offset-l2 s12">
                 <h5 className="white-text">Links</h5>
@@ -29,8 +29,9 @@ export default class Footer extends React.Component {
           </div>
           <div className="footer-copyright">
             <div className="container">
-            © 2019 Copyright Text
-            <Link className="grey-text text-lighten-4 right" target="_blank" to="#!">More Links</Link>
+            © 2019 Copyright Antonio HaureN!
+            <a className="grey-text text-lighten-4 right" target="_blank" rel="noopener noreferrer" href="https://github.com/haurenburu/anime_not_piracy_btw">Code</a>
+            {/* <Link className="grey-text text-lighten-4 right" target="_blank" to="#!">Code</Link> */}
             </div>
           </div>
         </footer>
