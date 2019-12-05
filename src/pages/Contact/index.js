@@ -39,7 +39,7 @@ export default class Login extends React.Component {
 
         return (
             <main className="container row center">
-                <h3 className="teal-text">Logar</h3>
+                <h3 className="teal-text">Contact</h3>
                 <form className="col s12" onSubmit={this.handleSubmit}>
                     <div className="input-field col s12 m6">
                         <label htmlFor="name">Name</label>
@@ -67,7 +67,7 @@ export default class Login extends React.Component {
 
 
                     <div className="input-fild col s12">
-                        <input className="btn" type="submit" onClick={this.validateForm} value="Logar" />
+                        <input className="btn" type="submit" onClick={this.validateForm} value="Send" />
                     </div>
                 </form>
 
